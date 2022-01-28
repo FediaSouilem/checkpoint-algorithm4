@@ -1,0 +1,17 @@
+var arr=[1,6, 8, 2,4]
+ALGORITHM checkpoint algoritm2.algo
+VAR
+aux: ARRAY_OF INTEGER;
+
+BEGIN
+FOR (i=1; i<arr.lenght;i++) DO
+    j=i-1
+    aux=arr[i]
+    
+END_FOR
+WHILE (j>0 and aux<arr[j]) DO
+    arr[j+1]=arr[j]
+        j-1
+END_WHILE
+write (arr)
+END
